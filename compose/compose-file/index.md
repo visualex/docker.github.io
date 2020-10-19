@@ -1698,7 +1698,7 @@ any circumstance. When `always` is specified, the container always restarts. The
 on-failure error. `unless-stopped` always restarts a container, except when the
 container is stopped (manually or otherwise).
 
-    restart: "no"
+    restart: no
     restart: always
     restart: on-failure
     restart: unless-stopped
